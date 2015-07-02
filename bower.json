@@ -1,0 +1,7 @@
+{
+  "name": "react-cordova-boilerplate",
+  "private": "true",
+  "dependencies": {
+    "topcoat": "~0.8.0"
+  }
+}
