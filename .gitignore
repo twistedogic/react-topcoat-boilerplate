@@ -5,7 +5,7 @@ node_modules/
 platforms/
 plugins/
 coverage/
-build/
+build/main.*
 dist/
 www/lib/**
 www/build/**

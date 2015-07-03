@@ -5,11 +5,11 @@ describe('MainDiv', function() {
     var TestUtils = React.addons.TestUtils;
 
     var main = TestUtils.renderIntoDocument(
-      <MainDiv name="world"/>
-      //React.createElement(MainDiv, {name: 'world'})
+    //   <MainDiv name="world"/>
+      React.createElement(MainDiv, {name: 'world'})
     );
 
     var div = TestUtils.findRenderedDOMComponentWithTag(main, 'div');
-    expect(main.getDOMNode().textContent).toEqual('Hello, world!');
+    expect(main.getDOMNode().textContent).toEqual('Hello world!');
   });
 });
